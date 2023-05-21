@@ -1,17 +1,17 @@
 {
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
-  "description": "Get the most out of your Polkadot staking with our efficient and distraction-free calculatorPolkadot Staking Calculator",
+  "description": "Get the most out of your ethereum staking with our efficient and distraction-free calculatorethereum Staking Calculator",
   "display": "standalone",
-  "name": "Polkadot Staking Calculator",
-  "short_name": "Polkadot Staking Calculator",
+  "name": "ethereum Staking Calculator",
+  "short_name": "ethereum Staking Calculator",
   "orientation": "portrait",
   "lang": "en",
   "categories": ["investment", "business", "defi"],
-  "start_url": "https://dot-staking-calculator.vercel.app/",
+  "start_url": "https://ETH-staking-calculator.vercel.app/",
   "icons": [
     {
-      "src": "https://dot-staking-calculator.vercel.app/Logo.png",
+      "src": "https://ETH-staking-calculator.vercel.app/Logo.png",
       "sizes": "64x64",
       "type": "image/png"
     }

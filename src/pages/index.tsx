@@ -14,13 +14,12 @@ export default function Home({ price }: any) {
   const [calculate, setCalculate] = useState();
 
   const getConversionPrice = (num: number) => {
-    const conversion = Number(num / price.polkadot.usd).toFixed(2);
+    const conversion = Number(num / price.ethereum.usd).toFixed(2);
     return conversion;
   };
 
   return (
     <>
-    
       <CheckRest>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-blue-100">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
@@ -30,7 +29,7 @@ export default function Home({ price }: any) {
               alt="Your Company"
             />
             <h1 className="mt-5 text-center text-2xl font-bold leading-10 tracking-tight text-gray-900">
-              Polkadot Staking Calculator (DOT)
+              Ethereum Staking Calculator (ETH)
             </h1>
           </div>
 
@@ -70,7 +69,7 @@ export default function Home({ price }: any) {
 
 export async function getStaticProps() {
   const res = await fetch(
-    "https://api.coingecko.com/api/v3/simple/price?ids=polkadot&vs_currencies=usd"
+    "https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd"
   );
   const price = await res.json();
 
