@@ -17,7 +17,7 @@ export default function Result({ date, rewardUsd, rewardDot }: ResultType) {
         <p className="inline-block font-semibold text-primary whitespace-nowrap leading-tight rounded-xl">
           <span className="text-xs text-green-500 uppercase">+$</span>
           <span className="text-base text-green-500">{rewardUsd} </span>
-          <span className=" text-gray-400 text-[10px] ">~ {rewardDot} DOT</span>
+          <span className=" text-gray-400 text-[10px] ">~ {rewardDot} ETH</span>
         </p>
       </div>
     </div>

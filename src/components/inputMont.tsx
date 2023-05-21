@@ -9,7 +9,7 @@ export default function ImputMont({ getConversionPrice }: Props) {
         Amount USD{" "}
         {amount && (
           <span className=" text-gray-400 text-[10px] ">
-            ~{getConversionPrice(amount)} DOT
+            ~{getConversionPrice(amount)} ETH
           </span>
         )}
       </label>
