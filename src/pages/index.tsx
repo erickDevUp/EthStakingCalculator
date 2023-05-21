@@ -9,6 +9,7 @@ import { CheckRest } from "@/context/checkCtx";
 import { useState } from "react";
 import Calculate from "@/components/calculate";
 import Script from "next/script";
+import NextSeoCard from "@/components/utils/nextSeo";
 
 export default function Home({ price }: any) {
   const [calculate, setCalculate] = useState();
@@ -20,6 +21,7 @@ export default function Home({ price }: any) {
 
   return (
     <>
+      <NextSeoCard></NextSeoCard>
       <CheckRest>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-blue-100">
           <div className="sm:mx-auto sm:w-full sm:max-w-sm">
