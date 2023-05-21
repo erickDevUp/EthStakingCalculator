@@ -64,9 +64,14 @@ export default function SeoTags() {
         eth2 staking rewards"
       />
       <meta
+        name="description"
+        content="Get the most out of your ethereum staking with our efficient and distraction-free calculator. Calculate your rewards hassle-free with our easy-to-use tool."
+      />
+      <meta
         name="copyright"
         content="ethereum Staking Calculator Reward (ETH)"
       />
+      <title>ethereum Staking Calculator Reward (ETH)</title>
     </>
   );
 }
