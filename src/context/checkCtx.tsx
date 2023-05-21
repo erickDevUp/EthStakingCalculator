@@ -5,7 +5,7 @@ export const CheckRest = ({ children }: any) => {
   const [checkRest, setCheckRest] = useState(false);
   const [amount, setAmount] = useState();
 
-  const [rewardValue, setRewardValue] = useState("15");
+  const [rewardValue, setRewardValue] = useState("5");
   return (
     <CheckRestCtx.Provider
       value={{
