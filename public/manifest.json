@@ -2,14 +2,18 @@
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
   "description": "Get the most out of your ethereum staking with our efficient and distraction-free calculatorethereum Staking Calculator",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "Ethereum Staking Calculator",
   "short_name": "Ethereum Staking Calculator",
   "orientation": "portrait",
   "lang": "en",
-  "categories": ["investment", "business", "defi"],
+  "categories": [
+    "investment",
+    "business",
+    "defi"
+  ],
   "start_url": "https://eth-staking-calculator.vercel.app/",
-   "icons": [
+  "icons": [
     {
       "src": "windows11/SmallTile.scale-100.png",
       "sizes": "71x71"
@@ -458,5 +462,9 @@
       "src": "ios/1024.png",
       "sizes": "1024x1024"
     }
+  ],
+  "display_override": [
+    "fullscreen",
+    "window-controls-overlay"
   ]
 }
