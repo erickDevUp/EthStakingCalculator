@@ -1,0 +1,10 @@
+Keep this file and signing.keystore in a safe place. You'll need these files if you want to upload future versions of your PWA to the Google Play Store.
+
+Key store file: signing.keystore
+Key store password: 2kdrsH9VzNDs
+Key alias: my-key-alias
+Key password: 9Fra5KHjOhIn
+Signer's full name: Ethereum Staking Calculator Admin
+Signer's organization: Ethereum Staking Calculator
+Signer's organizational unit: Engineering
+Signer's country code: US

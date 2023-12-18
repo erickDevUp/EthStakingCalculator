@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "app.vercel.eth_staking_calculator.twa",
+        "sha256_cert_fingerprints": ["86:5F:92:E5:83:82:04:2F:C0:C0:FB:A4:7D:24:83:39:9B:C8:1A:D5:F8:B1:C2:3C:F6:CA:FA:7A:A1:A5:6F:10"]
+      }
+    }]
