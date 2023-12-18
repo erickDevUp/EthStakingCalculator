@@ -12,8 +12,9 @@
     "business",
     "defi"
   ],
-  "scope": "/",
-  "start_url": "/",
+ 
+  "scope": "https://eth-staking-calculator.vercel.app/",  
+  "start_url": "https://eth-staking-calculator.vercel.app/",
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
@@ -471,9 +472,6 @@
     "fullscreen",
     "window-controls-overlay"
   ],   
-  "id": "/",
-  "edge_side_panel": {},
-  "related_applications": [],
   "dir": "ltr",
   "prefer_related_applications": false
 }
