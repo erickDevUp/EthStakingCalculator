@@ -12,6 +12,7 @@
     "business",
     "defi"
   ],
+  "scope": "https://eth-staking-calculator.vercel.app/",  
   "start_url": "https://eth-staking-calculator.vercel.app/",
   "icons": [
     {
