@@ -5,7 +5,7 @@
   "display": "fullscreen",
   "name": "Ethereum Staking Calculator",
   "short_name": "Ethereum Staking Calculator",
-  "orientation": "portrait",
+  "orientation": "natural",
   "lang": "en",
   "categories": [
     "investment",
